@@ -38,4 +38,10 @@ const person2: Person= {
 function greet(people: Person){
     console.log("welcome", people.name)
 }
+function myCity(city: City){
+    console.log("My city is ", city.name)
+}
+
+myCity(city2)
 greet(person2)
+
