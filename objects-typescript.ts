@@ -17,6 +17,10 @@ const city2: City = {
     name: "Zanjan",
     weather: 17,
 }
+const city3: City = {
+    name:"Mashhad" ,
+    weather: 22,
+}
 
 const person: Person= {
     name: "babak",
@@ -31,7 +35,7 @@ const person2: Person= {
     is_present: true,
 }
 
-function greet(people){
+function greet(people: Person){
     console.log("welcome", people.name)
 }
-greet(person)
+greet(person2)
